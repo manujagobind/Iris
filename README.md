@@ -1,4 +1,4 @@
-#Iris Segmentation
+# Iris Segmentation
 
 Segmentation is the process of finding most important portions in any image.  It is achieved by localizing the iris-pupil boundary, iris-sclera boundary, eyelids and eyelashes. Proper segmentation is essential for feature extraction and feature matching at later stages. We selected the CASIA Interval v4 dataset developed at the Centre for Biometrics and Security Research using near infrared (NIR) imagery. A sample iris image from the dataset is shown in Fig 1.
 
@@ -35,6 +35,6 @@ In an attempt to localize iris-sclera boundary, we used the method proposed in [
 
 ![thresholding and hough circles](https://github.com/manujagobind/Iris/raw/master/Screenshots/Screenshot1.png)
 
-FUTURE WORK:
+### FUTURE WORK:
 
 The methods used in this research did not prove to be very successful in localizing the iris-sclera boundary. Future work involves improving or redesigning the algorithms already employed and reading and implementing other methods that could be used for iris segmentation. One such method  to test could be background subtraction. The algorithms should also be tested on various other iris datasets such as MICHE, VSSIRIS, OSIRIS, etc.
