@@ -29,12 +29,12 @@ Thus  h(xi, yi, xc, yc, r) = 1 if the parameter triplet (xc, yc, r) represents a
 
 We used the centre and radius obtained from Fig 5 as the minimum criteria for detecting circles. The maximum criteria for radius was set as twice the one obtained in Fig 5. The result obtained is shown below (Fig 7). The result obtained using OpenCV’s built in function was not upto the mark. A better algorithm for the same has to be used or self designed.
 
-![thresholding and hough circles](https://github.com/manujagobind/Iris/raw/master/Screenshots/Screenshot1.png)
+![thresholding and hough circles](https://github.com/manujagobind/Iris/raw/master/Screenshots/Screenshot3.png)
 
 In an attempt to localize iris-sclera boundary, we used the method proposed in [2]. Saliency maps can be used to measure variation in contrast and thus provide sharp responses along the edges. However, the method did not prove to be very successful on the CASIA dataset as it did on the MICHE dataset. Although the pupil region was detected, the iris-sclera boundary went undetected. The reason maybe low intensity difference between iris and sclera regions. This is shown in Fig 8.
 
-![thresholding and hough circles](https://github.com/manujagobind/Iris/raw/master/Screenshots/Screenshot1.png)
+![thresholding and hough circles](https://github.com/manujagobind/Iris/raw/master/Screenshots/Screenshot4.png)
 
-### FUTURE WORK:
+### FUTURE WORK
 
 The methods used in this research did not prove to be very successful in localizing the iris-sclera boundary. Future work involves improving or redesigning the algorithms already employed and reading and implementing other methods that could be used for iris segmentation. One such method  to test could be background subtraction. The algorithms should also be tested on various other iris datasets such as MICHE, VSSIRIS, OSIRIS, etc.
